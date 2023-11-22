@@ -1,0 +1,41 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:crimson;
+}
+
+.container{
+    text-align: right; 
+}
+
+.truth{
+    padding: 20px;
+    box-shadow: 0 0 20px;
+    border-radius: 20px;
+    background-color: chartreuse;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: black; /* black Text Color */
+    font-weight: bolder;
+    font-size: large;
+  } 
+
+  button {
+    background-color: red; /* Dark Pink Button Background Color */
+    color: #fff; /* White Button Text Color */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+  }
+  button:hover {
+    background-color: black; /* Slightly Darker Pink on Hover*/
+}
