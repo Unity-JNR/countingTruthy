@@ -39,3 +39,22 @@ label {
   button:hover {
     background-color: black; /* Slightly Darker Pink on Hover*/
 }
+@media only screen and (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+  }
+  
+  /* Medium screens (tablets) */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .container {
+      max-width: 800px;
+    }
+  }
+  
+  /* Large screens (desktops) */
+  @media only screen and (min-width: 1025px) {
+    .container {
+      max-width: 1200px;
+    }
+  }
